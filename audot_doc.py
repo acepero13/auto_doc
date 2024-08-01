@@ -108,8 +108,10 @@ class CodebaseAnalyzer:
                 continue
             
             if relative_path not in self.documentation:
-                if len(files) == 0:
+                folders_to_analyze = [f for f in files if self.should_analyze_file(f)]
+                if len(files) == 0 or len(folders_to_analyze) == 0:
                     continue
+                
                 folder_doc = self.analyze_folder(relative_path, files)
                 self.documentation[relative_path] = folder_doc
                 self.context_manager.update_context(folder_doc, "folder")
