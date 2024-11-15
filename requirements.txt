@@ -23,7 +23,7 @@ nbconvert==7.16.4
 ordereddict==1.1
 Pillow==10.4.0
 protobuf==5.27.2
-
+langchain_community==0.3.7
 pyOpenSSL==24.2.1
 pythran==0.16.1
 redis==5.0.7
@@ -34,3 +34,6 @@ thread==2.0.5
 tornado==6.4.1
 urllib3_secure_extra==0.1.0
 zstandard==0.23.0
+GitPython==3.1.43
+sentence-transformers==3.3.0
+faiss-cpu==1.9.0
