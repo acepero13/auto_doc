@@ -1,7 +1,6 @@
 attr==0.3.2
 brotli==1.1.0
 brotlicffi==1.1.0.0
-cElementTree==1.0.2-20050302
 chardet==5.2.0
 colorama==0.4.6
 ConfigParser==7.0.0
@@ -9,7 +8,6 @@ coverage==7.6.0
 cryptography==43.0.0
 dl==0.1.0
 docutils==0.21.2
-elementtree==1.2.6-20050316
 filelock==3.15.4
 h2==4.1.0
 HTMLParser==0.0.2
@@ -23,10 +21,9 @@ lxml==5.2.2
 mock==5.1.0
 nbconvert==7.16.4
 ordereddict==1.1
-Parser==0.1
 Pillow==10.4.0
 protobuf==5.27.2
-pyodide==0.0.2
+
 pyOpenSSL==24.2.1
 pythran==0.16.1
 redis==5.0.7
@@ -36,5 +33,4 @@ Sphinx==7.4.7
 thread==2.0.5
 tornado==6.4.1
 urllib3_secure_extra==0.1.0
-xmlrpclib==1.0.1
 zstandard==0.23.0
